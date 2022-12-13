@@ -12,13 +12,6 @@ function App() {
     const signature = setTimeout(() => {
       setText1(first_text.slice(begin, text1.length + 1));
     }, 10);
-    // if (text1.length === 20) {
-    //   clearTimeout(signature);
-    // }
-    // begin = text1.length;
-    // const directory = setTimeout(() => {
-    //   setText1(first_text.slice(begin, text1.length + 1));
-    // }, 10);
 
     return () => clearTimeout(signature);
   }, [text1]);
