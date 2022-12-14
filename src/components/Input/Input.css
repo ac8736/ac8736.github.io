@@ -1,0 +1,18 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.input-line {
+  background-color: black;
+  border: 0;
+  color: white;
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+}
+
+.input-line:focus {
+  outline: none;
+}

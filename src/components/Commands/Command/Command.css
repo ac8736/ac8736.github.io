@@ -1,0 +1,22 @@
+.commands-container {
+  margin-left: 1em;
+}
+
+.command-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.p-margin {
+  margin: 0.25em 0;
+}
+
+.desc {
+  width: 62%;
+}
+
+.indent {
+  margin-left: 1em;
+}
