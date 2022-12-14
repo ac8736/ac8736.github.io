@@ -7,5 +7,14 @@
 }
 
 body {
-  overflow: hidden;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }

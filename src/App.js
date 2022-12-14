@@ -7,6 +7,8 @@ import Command from "./components/Commands/Command/Command";
 import Unknown from "./components/Unknown/Unknown";
 import { useSelector, useDispatch } from "react-redux";
 import { addLog } from "./features/terminalLogs/terminalLogsSlice";
+import Welcome from "./components/Commands/Welcome/Welcome";
+import Education from "./components/Commands/Education/Education";
 
 function App() {
   const terminalLogs = useSelector((state) => state.terminalLogs.value);
@@ -19,8 +21,6 @@ function App() {
     terminalCheck();
   }, [terminalLogs, dispatch]);
 
-  // const background = useSelector((state) => state.background.value);
-
   const terminalLogsComponents = terminalLogs.map((log, index) => {
     if (log === "introduction") {
       return <Introduction key={index} />;
@@ -30,6 +30,10 @@ function App() {
       return <Help key={index} />;
     } else if (log === "commands") {
       return <Command key={index} />;
+    } else if (log === "welcome") {
+      return <Welcome key={index} />;
+    } else if (log === "education") {
+      return <Education key={index} />;
     } else {
       return <Unknown key={index} log={log} />;
     }

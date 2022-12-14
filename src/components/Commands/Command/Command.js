@@ -21,11 +21,11 @@ export default function Command() {
           <p className="p-margin desc">An introduction to who I am.</p>
         </div>
         <div className="indent command-section">
-          <p className="p-margin">Education</p>
+          <p className="p-margin">EDUCATION</p>
           <p className="p-margin desc">My education history.</p>
         </div>
         <div className="indent command-section">
-          <p className="p-margin">Experience</p>
+          <p className="p-margin">EXPERIENCE</p>
           <p className="p-margin desc">List of previous experience.</p>
         </div>
         <div className="indent command-section">
@@ -54,7 +54,7 @@ export default function Command() {
           </p>
         </div>
         <div className="indent command-section">
-          <p className="p-margin">Caret</p>
+          <p className="p-margin">CARET</p>
           <p className="p-margin desc">
             Changes the color of the input caret.
             <br />
