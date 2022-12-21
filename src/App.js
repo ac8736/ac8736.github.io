@@ -9,6 +9,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { addLog } from "./features/terminalLogs/terminalLogsSlice";
 import Welcome from "./components/Commands/Welcome/Welcome";
 import Education from "./components/Commands/Education/Education";
+import Experience from "./components/Commands/Experience/Experience";
+import Contact from "./components/Commands/Contact/Contact";
 
 function App() {
   const terminalLogs = useSelector((state) => state.terminalLogs.value);
@@ -34,6 +36,10 @@ function App() {
       return <Welcome key={index} />;
     } else if (log === "education") {
       return <Education key={index} />;
+    } else if (log === "experience") {
+      return <Experience key={index} />;
+    } else if (log === "contact") {
+      return <Contact key={index} />;
     } else {
       return <Unknown key={index} log={log} />;
     }

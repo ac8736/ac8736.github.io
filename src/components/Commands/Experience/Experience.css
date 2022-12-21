@@ -1,0 +1,10 @@
+.experience {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.experience > p,
+ul {
+  margin: 0;
+}

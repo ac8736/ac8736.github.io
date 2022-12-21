@@ -5,7 +5,7 @@
 }
 
 .input-line {
-  background-color: black;
+  background-color: inherit;
   border: 0;
   color: white;
   font-family: inherit;

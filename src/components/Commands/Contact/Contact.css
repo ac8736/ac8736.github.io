@@ -1,0 +1,12 @@
+.contact {
+  margin: 1em 0;
+}
+
+.contact-info {
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}

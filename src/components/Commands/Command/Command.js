@@ -46,7 +46,7 @@ export default function Command() {
           <p className="p-margin desc">Exits the terminal.</p>
         </div>
         <div className="indent command-section">
-          <p className="p-margin">Theme</p>
+          <p className="p-margin">THEME</p>
           <p className="p-margin desc">
             Changes the theme of the terminal.
             <br />
