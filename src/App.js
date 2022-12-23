@@ -11,6 +11,7 @@ import Welcome from "./components/Commands/Welcome/Welcome";
 import Education from "./components/Commands/Education/Education";
 import Experience from "./components/Commands/Experience/Experience";
 import Contact from "./components/Commands/Contact/Contact";
+import Portfolio from "./components/Commands/Portfolio/Portfolio";
 
 function App() {
   const terminalLogs = useSelector((state) => state.terminalLogs.value);
@@ -40,6 +41,8 @@ function App() {
       return <Experience key={index} />;
     } else if (log === "contact") {
       return <Contact key={index} />;
+    } else if (log === "portfolio") {
+      return <Portfolio key={index} />;
     } else {
       return <Unknown key={index} log={log} />;
     }
