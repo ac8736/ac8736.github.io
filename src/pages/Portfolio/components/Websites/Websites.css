@@ -1,0 +1,23 @@
+.subcontent {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.anchor-link {
+  color: rgb(77, 77, 77);
+}
+
+.sentiment-analysis-img {
+  width: 60%;
+  margin: auto;
+  outline: 1px solid gray;
+  border-radius: 5px;
+}

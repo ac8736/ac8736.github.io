@@ -1,0 +1,37 @@
+.tab-button-group {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.tab-buttons-unselected {
+  font-family: "Pixelify Sans", sans-serif;
+  border: 0;
+  text-align: left;
+  font-size: 2em;
+}
+
+.tab-buttons-selected {
+  font-family: "Pixelify Sans", sans-serif;
+  border: 0;
+  text-align: left;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.tab-buttons-unselected:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tab-buttons-selected:hover {
+  cursor: pointer;
+}
+
+.divider {
+  border-bottom: 2px solid black;
+  width: 75%;
+  margin: auto;
+  margin-top: 1rem;
+}

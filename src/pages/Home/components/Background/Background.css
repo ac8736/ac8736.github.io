@@ -1,0 +1,23 @@
+.background-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-container-sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subcontent {
+  width: 70%;
+}
+
+.fixed-margin-top {
+  margin-top: 0.5rem;
+  max-width: 120px;
+}
+
+.text {
+  font-size: 1.2rem;
+}

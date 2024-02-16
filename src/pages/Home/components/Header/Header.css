@@ -1,0 +1,60 @@
+.header {
+  text-align: left;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+}
+
+.header > h1 {
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.header > h2 {
+  font-weight: 100;
+  width: 50%;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.button-container {
+  display: flex;
+  gap: 1em;
+  width: 50%;
+  margin-bottom: 5rem;
+}
+
+.button {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  padding: 0.4em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  background-color: rgb(173, 171, 171);
+  border: 0;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  transition-duration: 500ms;
+}
+
+.button:hover {
+  cursor: pointer;
+  transition-duration: 500ms;
+  background-color: rgb(148, 148, 148);
+}
+
+.span {
+  font-weight: 700;
+}
+
+.contact-email {
+  font-size: 1.3rem;
+}
+
+.contact-email > a {
+  color: rgba(0, 0, 0, 0.85);
+  transition-duration: 500ms;
+}
+
+.contact-email > a:hover {
+  color: rgb(0, 0, 0);
+}
