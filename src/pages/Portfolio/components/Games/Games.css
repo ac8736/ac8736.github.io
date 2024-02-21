@@ -1,0 +1,23 @@
+.subcontent {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.anchor-link {
+  color: rgb(77, 77, 77);
+}
+
+.games-divider {
+  border-top: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 1.5rem;
+}

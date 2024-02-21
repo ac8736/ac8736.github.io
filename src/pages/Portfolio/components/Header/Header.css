@@ -15,3 +15,22 @@
   font-size: 1.5rem;
   color: rgba(0, 0, 0, 0.85);
 }
+
+.button {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  padding: 0.4em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  background-color: rgb(173, 171, 171);
+  border: 0;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  transition-duration: 500ms;
+}
+
+.button:hover {
+  cursor: pointer;
+  transition-duration: 500ms;
+  background-color: rgb(148, 148, 148);
+}
