@@ -1,16 +1,21 @@
 import HotKnifeGif from "./assets/hot_knife_game.gif";
 import AsteroidsGif from "./assets/asteroids_gif.gif";
 import DungeonFightGif from "./assets/dungeon_fight_gif.gif";
+import ForestGif from "./assets/forest_gif.gif";
 import { Fade } from "react-awesome-reveal";
 import "./Games.css";
 
 export default function Games() {
   return (
     <div>
+      <h2 className="subtitle">
+        The following six games are part of a six week journey. Each week, I developed a game with emphasis on a specific
+        characteristic.
+      </h2>
       <Fade triggerOnce={true}>
         <div className="subcontent">
           <h2>
-            1000 Degree Hot Knife |{" "}
+            1000 Degree Hot Knife | Minimalism |{" "}
             <a href="https://jipinyaozi.itch.io/1000-degree-hot-knife" target="_blank" className="anchor-link">
               Itch.io
             </a>
@@ -32,7 +37,7 @@ export default function Games() {
       <Fade triggerOnce={true}>
         <div className="subcontent">
           <h2>
-            Asteroids |{" "}
+            Asteroids | Game Feel |{" "}
             <a href="https://ac8736.itch.io/trails" target="_blank" className="anchor-link">
               Itch.io
             </a>
@@ -55,7 +60,7 @@ export default function Games() {
       <Fade triggerOnce={true}>
         <div className="subcontent">
           <h2>
-            Dungeon Fight |{" "}
+            Dungeon Fight | Dexterity |{" "}
             <a href="https://ac8736.itch.io/fight" target="_blank" className="anchor-link">
               Itch.io
             </a>
@@ -72,6 +77,29 @@ export default function Games() {
             is welcome!
           </p>
           <img src={DungeonFightGif} className="dungeon-fight-gif" />
+        </div>
+        <div className="games-divider" />
+      </Fade>
+      <Fade triggerOnce={true}>
+        <div className="subcontent">
+          <h2>
+            Forest | Level Design |{" "}
+            <a href="https://ac8736.itch.io/forest" target="_blank" className="anchor-link">
+              Itch.io
+            </a>
+          </h2>
+          <p className="text">Unity Game Engine, C#</p>
+          <p className="text">
+            This game was built as a prototype, focusing on how to design levels. With two other contributors, our goal was to
+            produce two levels, the first to teach the basic mechanics of the game, and a second level to test the player and see
+            how well the tutorial taught. I was responsible for developing the player actions, like the movement and the ability
+            to pick up items. I was also involved in the designing of both levels.
+          </p>
+          <p className="text">
+            Unity Game Engine was utilized to develop this game and deployed to Itch.io. Please feel free to play and all feedback
+            is welcome!
+          </p>
+          <img src={ForestGif} className="forest-gif" />
         </div>
         <div className="games-divider" />
       </Fade>
