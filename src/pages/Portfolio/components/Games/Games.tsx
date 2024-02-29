@@ -2,6 +2,7 @@ import HotKnifeGif from "./assets/hot_knife_game.gif";
 import AsteroidsGif from "./assets/asteroids_gif.gif";
 import DungeonFightGif from "./assets/dungeon_fight_gif.gif";
 import ForestGif from "./assets/forest_gif.gif";
+import DeathGif from "./assets/death_gif.gif";
 import { Fade } from "react-awesome-reveal";
 import "./Games.css";
 
@@ -10,7 +11,8 @@ export default function Games() {
     <div>
       <h2 className="subtitle">
         The following six games are part of a six week journey. Each week, I developed a game with emphasis on a specific
-        characteristic.
+        characteristic. The end goal is fleshing out one of these games into a full-fledged game after the six weeks of
+        prototyping.
       </h2>
       <Fade triggerOnce={true}>
         <div className="subcontent">
@@ -100,6 +102,29 @@ export default function Games() {
             is welcome!
           </p>
           <img src={ForestGif} className="forest-gif" />
+        </div>
+        <div className="games-divider" />
+      </Fade>
+      <Fade triggerOnce={true}>
+        <div className="subcontent">
+          <h2>
+            Running From Death | Procedural Generation |{" "}
+            <a href="https://spearmintorbit.itch.io/dungeonfighter" target="_blank" className="anchor-link">
+              Itch.io
+            </a>
+          </h2>
+          <p className="text">Unity Game Engine, C#</p>
+          <p className="text">
+            This game was built as a prototype, featuring procedurally generated content. Along with two other contributors, our
+            goal was to create a game that uses procedural generation algorithms to create levels. My main responsibility was to
+            implement procedural generation with Binary Partition and the Random Walk algorithms. I also developed the player and
+            shooting mechanics.
+          </p>
+          <p className="text">
+            Unity Game Engine was utilized to develop this game and deployed to Itch.io. Please feel free to play and all feedback
+            is welcome!
+          </p>
+          <img src={DeathGif} className="death-gif" />
         </div>
         <div className="games-divider" />
       </Fade>
