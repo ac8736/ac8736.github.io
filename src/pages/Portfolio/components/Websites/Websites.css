@@ -21,3 +21,10 @@
   outline: 1px solid gray;
   border-radius: 5px;
 }
+
+.games-divider {
+  border-top: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
