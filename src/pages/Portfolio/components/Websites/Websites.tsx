@@ -2,6 +2,7 @@ import "./Websites.css";
 import { Fade } from "react-awesome-reveal";
 import SentimentAnalysisImage from "./assets/sentiment-analysis.png";
 import HelldiversCompanionImage from "./assets/hd-companion.jpg";
+import HiTeaImage from "./assets/hi-tea.jpg";
 
 export default function Websites() {
   return (
@@ -25,6 +26,23 @@ export default function Websites() {
             Model is deployed on Hugging Face.
           </p>
           <img src={SentimentAnalysisImage} className="sentiment-analysis-img" />
+        </div>
+      </Fade>
+      <div className="games-divider" />
+      <Fade triggerOnce={true}>
+        <div className="subcontent">
+          <h2>
+            Hi Tea |{" "}
+            <a href="https://www.hiteasyracuse.com/" target="_blank" className="anchor-link">
+              Link
+            </a>
+          </h2>
+          <p className="text">HTML, CSS, JavaScript</p>
+          <p className="text">
+            This website is for a local bubble tea shop in Syracuse, NY. The website is created using HTML, CSS, and JavaScript.
+            The site is actively used by customers to view the menu and other options available with Hi Tea.
+          </p>
+          <img src={HiTeaImage} className="sentiment-analysis-img" />
         </div>
       </Fade>
       <div className="games-divider" />
