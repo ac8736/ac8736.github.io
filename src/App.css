@@ -1,5 +1,6 @@
 body {
   background-color: var(--background);
+  transition-duration: 750ms;
 }
 
 #root {
