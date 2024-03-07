@@ -1,22 +1,22 @@
-.header {
+.header-portfolio {
   text-align: left;
   margin-top: 10rem;
   margin-bottom: 7rem;
 }
 
-.header > h1 {
+.header-portfolio > h1 {
   font-size: 5rem;
   color: rgba(0, 0, 0, 0.85);
 }
 
-.header > h2 {
+.header-portfolio > h2 {
   font-weight: 100;
   width: 50%;
   font-size: 1.5rem;
   color: rgba(0, 0, 0, 0.85);
 }
 
-.button {
+.button-portfolio {
   font-family: "Pixelify Sans", sans-serif;
   font-weight: 100;
   padding: 0.4em;
@@ -29,8 +29,28 @@
   transition-duration: 500ms;
 }
 
-.button:hover {
+.button-portfolio:hover {
   cursor: pointer;
   transition-duration: 500ms;
   background-color: rgb(148, 148, 148);
+}
+
+@media screen and (max-width: 825px) {
+  .header-portfolio {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .header-portfolio > h1 {
+    font-size: 4rem;
+    margin: 1rem auto;
+  }
+
+  .header-portfolio > h2 {
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    width: 85%;
+  }
 }

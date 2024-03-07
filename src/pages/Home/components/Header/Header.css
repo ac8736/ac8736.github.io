@@ -1,7 +1,7 @@
 .header {
   text-align: left;
   margin-top: 10rem;
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
 }
 
 .header > h1 {
@@ -57,4 +57,34 @@
 
 .contact-email > a:hover {
   color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 825px) {
+  .header {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .header > h1 {
+    font-size: 4rem;
+    margin: 0rem auto;
+  }
+
+  .header > h2 {
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    width: 85%;
+  }
+
+  .button-container {
+    width: 30%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .button {
+    font-size: 1.2rem;
+  }
 }

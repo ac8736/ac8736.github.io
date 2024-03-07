@@ -26,8 +26,7 @@ export default function Games() {
     <div>
       <h2 className="subtitle">
         The following six games are part of a six week journey. Each week, I developed a game with emphasis on a specific
-        characteristic. The end goal is fleshing out one of these games into a full-fledged game after the six weeks of
-        prototyping.
+        characteristic.
       </h2>
       {games}
     </div>
