@@ -22,7 +22,7 @@
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 900px) {
   .background-container-sub {
     flex-direction: column;
   }

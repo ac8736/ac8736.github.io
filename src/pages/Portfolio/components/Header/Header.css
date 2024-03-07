@@ -35,7 +35,7 @@
   background-color: rgb(148, 148, 148);
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 900px) {
   .header-portfolio {
     text-align: center;
     margin-top: 0;

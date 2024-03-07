@@ -27,7 +27,7 @@
   margin-top: 1.5rem;
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 900px) {
   .text {
     font-size: 0.9rem;
   }

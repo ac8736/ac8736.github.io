@@ -29,7 +29,7 @@
   margin-top: 1.5rem;
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 900px) {
   .sentiment-analysis-img {
     width: 100%;
   }
