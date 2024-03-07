@@ -27,12 +27,14 @@
   border-radius: 6px;
   font-size: 1.5rem;
   transition-duration: 500ms;
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .button-portfolio:hover {
   cursor: pointer;
   transition-duration: 500ms;
   background-color: rgb(148, 148, 148);
+  color: rgba(0, 0, 0, 0.85);
 }
 
 @media screen and (max-width: 900px) {
