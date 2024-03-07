@@ -4,6 +4,7 @@
   text-align: left;
   display: flex;
   flex-direction: column;
+  color: var(--text-primary);
 }
 
 .text {
@@ -23,7 +24,7 @@
 }
 
 .games-divider {
-  border-top: 1px solid black;
+  border-top: 1px solid var(--divider);
   width: 50%;
   margin: auto;
   margin-top: 1.5rem;

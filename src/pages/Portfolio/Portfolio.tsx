@@ -1,6 +1,5 @@
 import "./Portfolio.css";
 import { useState } from "react";
-import Header from "./components/Header/Header";
 import Websites from "./components/Websites/Websites";
 import Games from "./components/Games/Games";
 
@@ -9,7 +8,6 @@ export default function Portfolio() {
 
   return (
     <>
-      <Header />
       <div className="tab-button-group">
         <button
           className={tab === "websites" ? "tab-buttons-selected" : "tab-buttons-unselected"}

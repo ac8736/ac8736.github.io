@@ -6,21 +6,21 @@
 
 .header > h1 {
   font-size: 5rem;
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--text-primary);
 }
 
 .header > h2 {
   font-weight: 100;
   width: 50%;
   font-size: 2rem;
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--text-primary);
 }
 
 .button-container {
   display: flex;
   gap: 1em;
   width: 50%;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .button {
@@ -34,14 +34,14 @@
   border-radius: 6px;
   font-size: 1.5rem;
   transition-duration: 500ms;
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--text-primary);
 }
 
 .button:hover {
   cursor: pointer;
   transition-duration: 500ms;
   background-color: rgb(148, 148, 148);
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--text-primary);
 }
 
 .span {
@@ -50,15 +50,11 @@
 
 .contact-email {
   font-size: 1.3rem;
+  color: var(--text-primary);
 }
 
 .contact-email > a {
-  color: rgba(0, 0, 0, 0.85);
-  transition-duration: 500ms;
-}
-
-.contact-email > a:hover {
-  color: rgb(0, 0, 0);
+  color: var(--text-primary);
 }
 
 @media screen and (max-width: 900px) {
@@ -84,6 +80,7 @@
     width: 30%;
     margin: auto;
     justify-content: center;
+    margin-bottom: 2rem;
   }
 
   .button {
