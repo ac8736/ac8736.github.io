@@ -3,6 +3,7 @@ import AsteroidsGif from "./assets/asteroids_gif.gif";
 import DungeonFightGif from "./assets/dungeon_fight_gif.gif";
 import ForestGif from "./assets/forest_gif.gif";
 import DeathGif from "./assets/death_gif.gif";
+import GenAIGif from "./assets/gen_ai_gif.gif";
 
 export interface IContent {
   title: string;
@@ -82,5 +83,17 @@ export const content: IContent[] = [
       "Unity Game Engine was utilized to develop this game and deployed to Itch.io. Please feel free to play and all feedback\
     is welcome!",
     img: DeathGif,
+  },
+  {
+    title: "AI vs Vocaloid | Generative AI",
+    link: "https://aqoursbaelz.itch.io/ai-or-vocaloid",
+    tech: "Unity Game Engine, C#",
+    description:
+      "This game was built as a prototype, featuring generative AI. Along with three other contributors, our\
+      goal was to create a game that uses generative AI, such as voice generation. I was involved in basic scripting with C# and assisting in AI voice generation.",
+    closing:
+      "Unity Game Engine was utilized to develop this game and deployed to Itch.io. Please feel free to play and all feedback\
+    is welcome!",
+    img: GenAIGif,
   },
 ];
