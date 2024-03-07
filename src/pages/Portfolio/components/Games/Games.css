@@ -1,6 +1,7 @@
 .subtitle {
   width: 80%;
   margin: auto;
+  color: var(--text-primary);
 }
 
 .subcontent {
