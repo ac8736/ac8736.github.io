@@ -4,6 +4,7 @@ import DungeonFightGif from "./assets/dungeon_fight_gif.gif";
 import ForestGif from "./assets/forest_gif.gif";
 import DeathGif from "./assets/death_gif.gif";
 import GenAIGif from "./assets/gen_ai_gif.gif";
+import TheDarkCavePNG from "./assets/the_dark_cave.png";
 
 export interface IContent {
   title: string;
@@ -14,7 +15,21 @@ export interface IContent {
   img: string;
 }
 
-export const content: IContent[] = [
+export const gameMakerGames: IContent[] = [
+  {
+    title: "The Dark Cave | Platformer",
+    link: "https://ac8736.itch.io/the-dark-cave",
+    tech: "GameMaker Studio, GML",
+    description:
+      "I build this game as a result of learning about GameMaker and experimenting with it. The game is a short 2D platformer game that features player mechanics such as: double jump, shooting, dashing. There are also enemies for the player to shoot.\
+      Since the game is built in GameMaker, I used their programming language GML to write all the scripts and logic.",
+    closing:
+      "Listening to criticisms from previous projects, I implemented many suggested improvements, including clear button instructions during the game and utilizing comfortable key binds. The game is deployed to Itch.io as a .zip file. Please feel free to play and all feedback is welcome!",
+    img: TheDarkCavePNG,
+  },
+];
+
+export const unityGamesPrototype: IContent[] = [
   {
     title: "1000 Degree Hot Knife | Minimalism",
     link: "https://jipinyaozi.itch.io/1000-degree-hot-knife",
