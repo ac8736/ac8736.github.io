@@ -39,6 +39,13 @@ export default function Background() {
               </p>
             </div>
             <div>
+              <h2>AiTudier</h2>
+              <p className="text">Front End Development Intern</p>
+              <p className="text">
+                From from June 2022 to August 2022. I assisted in the development of a landing page with React. I implemented the landing page based on the UI team's designs and also helped allocate tasks to improve productivity. I was also part of code review, where I reviewed my colleague's work.
+              </p>
+            </div>
+            <div>
               <h2>EGD Collective</h2>
               <p className="text">Gameplay Programmer</p>
               <p className="text">

@@ -15,6 +15,22 @@ export interface IContent {
   img: string;
 }
 
+export const unityGames: IContent[] = [
+  {
+    title: "Running From Death | Procedural Generation",
+    link: "https://spearmintorbit.itch.io/beyondmortality",
+    tech: "Unity Game Engine, C#",
+    description:
+      "This game is a procedurally generated roguelike bullet hell. I led the team to develop this game, being responsible\
+      for the general direction of the game. Alongside leading the team, I was also responsible for creating the algorithm we used to \
+      procedurally generate our floors. I also designed the components being used for procedural generation and developed several scripts for character movement, combat, and UI controls.",
+    closing:
+      "Unity Game Engine was utilized to develop this game and deployed to Itch.io. Please feel free to play and all feedback\
+    is welcome!",
+    img: DeathGif,
+  }
+];
+
 export const gameMakerGames: IContent[] = [
   {
     title: "The Dark Cave | Platformer",
@@ -84,20 +100,6 @@ export const unityGamesPrototype: IContent[] = [
       "Unity Game Engine was utilized to develop this game and deployed to Itch.io. Please feel free to play and all feedback\
     is welcome!",
     img: ForestGif,
-  },
-  {
-    title: "Running From Death | Procedural Generation",
-    link: "https://spearmintorbit.itch.io/dungeonfighter",
-    tech: "Unity Game Engine, C#",
-    description:
-      "This game was built as a prototype, featuring procedurally generated content. Along with two other contributors, our\
-      goal was to create a game that uses procedural generation algorithms to create levels. My main responsibility was to\
-      implement procedural generation with Binary Partition and the Random Walk algorithms. I also developed the player and\
-      shooting mechanics.",
-    closing:
-      "Unity Game Engine was utilized to develop this game and deployed to Itch.io. Please feel free to play and all feedback\
-    is welcome!",
-    img: DeathGif,
   },
   {
     title: "AI vs Vocaloid | Generative AI",

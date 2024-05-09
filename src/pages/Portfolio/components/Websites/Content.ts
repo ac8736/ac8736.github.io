@@ -19,7 +19,7 @@ export const content: IContent[] = [
     description:
       "I used the Hugging Face Transformers API to finetune a BERT model on sentiment analysis. The dataset used was the\
     Toxic Tweets Dataset from Kaggle. The finetuning process was achieved using PyTorch and Jupyter Notebook, and utilized\
-    Google Colab GPU resources to speed up the training process.",
+    Google Colab GPU resources to speed up the training process. Overall, the model has a 93% accuracy.",
     closing:
       "React is used to create a simple web interface for users to input text and receive a sentiment analysis prediction. \
       Model is deployed on Hugging Face.",

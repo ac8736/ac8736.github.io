@@ -12,8 +12,7 @@ export default function Header() {
         <>
           <h1>Hello!</h1>
           <h2>
-            I'm <span className="span">Andy Chen</span>, a passionate software engineer who loves developing websites and video
-            games.
+            I'm <span className="span">Andy Chen</span>, a passionate software engineer that just want to make computers do cool things.
           </h2>
           <div className="button-container">
             <button className="button" onClick={() => navigate("/portfolio")}>
@@ -29,6 +28,9 @@ export default function Header() {
           <p className="contact-email">
             If you have any inquiries, please feel free to contact me:{" "}
             <a href="mailto:andy.chen.swe@gmail.com">andy.chen.swe@gmail.com</a>
+          </p>
+          <p className="contact-email">
+            Technologies I've worked with: HTML/CSS, TypeScript/JavaScript [React, Angular, Express], Python [Flask, Django], C# [Unity, ASP.NET], Java [Spring Boot], MySQL, MongoDB
           </p>
         </>
       ) : (
