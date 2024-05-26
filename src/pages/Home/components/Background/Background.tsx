@@ -34,7 +34,7 @@ export default function Background() {
               <h2>HABNET Chamber of Commerce</h2>
               <p className="text">Web Associate Intern</p>
               <p className="text">
-                From from July 2022 to August 2022. I assisted in the development of a new mobile app geared towards helping local
+                From July 2022 to August 2022. I assisted in the development of a new mobile app geared towards helping local
                 merchants connect with eachother. The app was built with React Native and TypeScript.
               </p>
             </div>
@@ -42,14 +42,14 @@ export default function Background() {
               <h2>AiTudier</h2>
               <p className="text">Front End Development Intern</p>
               <p className="text">
-                From from June 2022 to August 2022. I assisted in the development of a landing page with React. I implemented the landing page based on the UI team's designs and also helped allocate tasks to improve productivity. I was also part of code review, where I reviewed my colleague's work.
+                From June 2022 to August 2022. I assisted in the development of a landing page with React. I implemented the landing page based on the UI team's designs and also helped allocate tasks to improve productivity. I was also part of code review, where I reviewed my colleague's work.
               </p>
             </div>
             <div>
               <h2>EGD Collective</h2>
               <p className="text">Gameplay Programmer</p>
               <p className="text">
-                From from October 2021 to April 2022. I worked with a team to develop a 2D fighting game in Unity, where my
+                From October 2021 to April 2022. I worked with a team to develop a 2D fighting game in Unity, where my
                 primary role was developing the C# scripts for the game's characters.
               </p>
             </div>
