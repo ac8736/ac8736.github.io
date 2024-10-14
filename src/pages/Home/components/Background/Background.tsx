@@ -12,8 +12,8 @@ export default function Background() {
             <p className="text">Bachelor's of Science in Computer Science, Minor in Mathematics</p>
             <p className="text">
               Attended from September 2020 to May 2024. I have taken a number of classes related to software development
-              including: Data Structures & Algorithms, Object Oriented Programming, Computer Architecture, Operating Systems,
-              Computer Networking, Software Engineering, Game Design, Game Engineering.
+              including: Data Structures & Algorithms, Object Oriented Programming, Computer Architecture, Operating
+              Systems, Computer Networking, Software Engineering, Game Design, Game Engineering.
             </p>
           </div>
         </div>
@@ -26,23 +26,26 @@ export default function Background() {
               <h2>Genesys</h2>
               <p className="text">Software Engineer Intern</p>
               <p className="text">
-                From May 2023 to August 2023. I designed and implemented a new feature that helps new customers easily obtain
-                necessary resources. The feature was built with Angular and the ServerLess Framework, both using TypeScript.
+                From May 2023 to August 2023. I designed and implemented a new feature that helps new customers easily
+                obtain necessary resources. The feature was built with Angular and the ServerLess Framework, both using
+                TypeScript.
               </p>
             </div>
             <div>
               <h2>HABNET Chamber of Commerce</h2>
               <p className="text">Web Associate Intern</p>
               <p className="text">
-                From July 2022 to August 2022. I assisted in the development of a new mobile app geared towards helping local
-                merchants connect with eachother. The app was built with React Native and TypeScript.
+                From July 2022 to August 2022. I assisted in the development of a new mobile app geared towards helping
+                local merchants connect with eachother. The app was built with React Native and TypeScript.
               </p>
             </div>
             <div>
               <h2>AiTudier</h2>
-              <p className="text">Front End Development Intern</p>
+              <p className="text">Software Engineer Intern</p>
               <p className="text">
-                From June 2022 to August 2022. I assisted in the development of a landing page with React. I implemented the landing page based on the UI team's designs and also helped allocate tasks to improve productivity. I was also part of code review, where I reviewed my colleague's work.
+                From June 2022 to August 2022. I assisted in the development of a landing page with React. I implemented
+                the landing page based on the UI team's designs and also helped allocate tasks to improve productivity.
+                I was also part of code review, where I reviewed my colleague's work.
               </p>
             </div>
             <div>

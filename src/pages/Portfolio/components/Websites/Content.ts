@@ -1,6 +1,7 @@
 import HelldiversCompanionImage from "./assets/hd-companion.jpg";
 import SentimentAnalysisImage from "./assets/sentiment-analysis.png";
 import HiTeaImage from "./assets/hi-tea.jpg";
+import LiteCSVImage from "./assets/litecsv.png";
 
 export interface IContent {
   title: string;
@@ -24,6 +25,18 @@ export const content: IContent[] = [
       "React is used to create a simple web interface for users to input text and receive a sentiment analysis prediction. \
       Model is deployed on Hugging Face.",
     img: SentimentAnalysisImage,
+  },
+  {
+    title: "LiteCSV",
+    link: "https://litecsv.netlify.app/",
+    tech: "React, TypeScript",
+    description:
+      "I view CSV files quite often, and using a notepad app to view them was not ideal. There were no way to format the data\
+      in a way that was easy to read. To solve this, I created LiteCSV, a web app that allows users to upload a CSV file and view it\
+      in an organized table format.",
+    closing:
+      "Decided to use React to put everything together, providing the interface for the user to upload and view the CSV file.",
+    img: LiteCSVImage,
   },
   {
     title: "Hi Tea",
